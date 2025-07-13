@@ -1,0 +1,29 @@
+@font-face {
+    font-family:'lalezar' ;
+    src: url(../../assets/fonts/Lalezar.ttf);
+}
+@font-face {
+    font-family: 'yekan';
+    src: url('../../assets/fonts/Yekan.ttf');
+}
+a{
+    text-decoration: none !important;
+    padding:0 10px;
+    color:gray !important;
+     font-family: 'yekan';
+
+}
+.active{
+  
+    color:black !important;
+}
+.navbar-brand{
+
+    color: black !important;
+}
+#dropdown-basic{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: -8px;
+}
