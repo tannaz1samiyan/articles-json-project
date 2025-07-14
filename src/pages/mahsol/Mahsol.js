@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom"
 import MyNavabar from "../../components/mynavbar/MyNavbar"
-
+import Footer from "../../components/footer/Footer"
 function Mahsol(){
 
     return(
@@ -8,6 +8,7 @@ function Mahsol(){
         <MyNavabar/>
         
          <Outlet/>
+         <Footer/>
         </>
        
     )

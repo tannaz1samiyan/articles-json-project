@@ -5,6 +5,8 @@ import { useEffect, useState } from "react"
 import Form from 'react-bootstrap/Form';
 import axios, { Axios } from "axios"
 import Swal from "sweetalert2";
+import { FaOtter } from "react-icons/fa";
+import Footer from "../../components/footer/Footer";
 function EditArticle(){
   const articleId=useParams().articleId
   const [article,setArticle]=useState({})
@@ -91,6 +93,7 @@ function EditArticle(){
       />
       <button className="m-4 border rounded" onClick={editArticleHandler}>ویرایش مقاله</button>
      </div>
+     <Footer/>
        </>
     )
 }

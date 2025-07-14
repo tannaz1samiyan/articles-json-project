@@ -4,7 +4,7 @@ import MyNavabar from "../../components/mynavbar/MyNavbar"
 import axios from "axios"
 import './Home.css'
 import { useEffect, useState } from "react"
-
+import Footer from "../../components/footer/Footer"
 function Home(){
     const [articles,setArticles]=useState([])
     useEffect(()=>{
@@ -29,6 +29,7 @@ function Home(){
         </Row>
         
        </Container>
+       <Footer/>
         </>
     )
 }

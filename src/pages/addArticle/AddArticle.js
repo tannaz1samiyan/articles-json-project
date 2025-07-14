@@ -6,6 +6,7 @@ import { useState } from "react";
 import axios from "axios";
 
 import Swal from "sweetalert2";
+import Footer from "../../components/footer/Footer";
 function AddAticle(){
 
 const [formData,setFormData]=useState({})
@@ -120,7 +121,7 @@ const addArticleHandler=()=>{
       />
       <button className="m-4 border rounded" onClick={addArticleHandler}>ارسال مقاله</button>
      </div>
-   
+     <Footer/>
        </>
     )
 }

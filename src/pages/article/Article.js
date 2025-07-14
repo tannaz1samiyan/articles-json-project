@@ -5,8 +5,10 @@ import axios from "axios"
 import {Row,Col, Container} from "react-bootstrap"
 import { FaRegEdit } from "react-icons/fa";
 import { BiTimeFive, BiCategoryAlt } from "react-icons/bi";
+import Footer from "../../components/footer/Footer"
 import Swal from "sweetalert2"
 import './Article.css'
+
 function Article(){
     const [articleInfo ,setArticleInfo]=useState({})
     const articleId=useParams().articleId
@@ -84,6 +86,7 @@ function Article(){
             </Col>
         </Row>
         </Container>
+        <Footer/>
         </>
     )
 }
